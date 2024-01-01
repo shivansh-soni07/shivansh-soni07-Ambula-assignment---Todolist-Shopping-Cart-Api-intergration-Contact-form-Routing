@@ -1,0 +1,33 @@
+/* Styles for the navigation bar */
+nav {
+    background-color: #140e51; /* Set the background color */
+    color: #fff; /* Set the text color */
+    padding: 10px; /* Add some padding */
+    text-align: center; /* Center align the content */
+  }
+  
+  ul {
+    list-style: none; /* Remove the default list styles */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center align the flex items */
+  }
+  
+  li {
+    margin-right: 20px; /* Add some spacing between the list items */
+  }
+  
+  /* Styles for the links */
+  li a {
+    text-decoration: none; /* Remove the underline from the links */
+    color: #fff; /* Set the text color */
+    font-weight: bold; /* Make the text bold */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+  
+    /* Style the hover effect */
+    &:hover {
+      color: #ffcc00; /* Change the text color on hover */
+    }
+  }
+  
